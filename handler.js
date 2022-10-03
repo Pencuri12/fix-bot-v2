@@ -698,11 +698,11 @@ export async function participantsUpdate({ id, participants, action }) {
                                 groupname: await this.getName(id),
                                 membercount: groupMetadata.participants.length
                             })
-    conn.sendButtonDoc(id, text, wm, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'WHMODSDEV', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
-    mediaUrl: "https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow",
+    conn.sendButtonDoc(id, text, wm, action == 'add' ? '𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝒅𝒂𝒕𝒂𝒏𝒈 𝒔𝒂𝒚𝒂𝒏𝒈' : '𝑺𝒆𝒍𝒂𝒎𝒂𝒕 𝒕𝒊𝒏𝒈𝒂𝒍 𝒔𝒂𝒚𝒂𝒏𝒈', action === 'add' ? '.intro' : '𝑺𝒀𝑵𝑪 𝑩𝑶𝑻𝒁', fkontak, { contextInfo: { externalAdReply: { showAdAttribution: true,
+    mediaUrl: "https://youtube.com/channel/UC3n0W9ipnuS80RyrgH1znBA",
     mediaType: 2, 
-    description: "https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow", 
-    title: 'WH-MODS-BOT-V1-MultiDevice',
+    description: "https://youtube.com/channel/UC3n0W9ipnuS80RyrgH1znBA", 
+    title: '𝑺𝒀𝑵𝑪 𝑩𝑶𝑻𝒁',
     body: wm,
     thumbnail: await(await fetch(action === 'add' ? wel : lea)).buffer(),
     sourceUrl: sgc
